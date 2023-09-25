@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://localhost/snoepwinkel/cart.php -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>cart</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="./cart_files/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./cart_files/register.css">
+
+</head>
+<body>
+   
+
+<header class="header">
+
+   <div class="header-1">
+      <div class="flex">
+         <div class="share">
+            <a href="http://localhost/snoepwinkel/cart.php#" class="fab fa-facebook-f"></a>
+            <a href="http://localhost/snoepwinkel/cart.php#" class="fab fa-twitter"></a>
+            <a href="http://localhost/snoepwinkel/cart.php#" class="fab fa-instagram"></a>
+            <a href="http://localhost/snoepwinkel/cart.php#" class="fab fa-linkedin"></a>
+         </div>
+         <p> new <a href="http://localhost/snoepwinkel/login.php">login</a> | <a href="http://localhost/snoepwinkel/register.php">register</a> </p>
+      </div>
+   </div>
+
+   <div class="header-2">
+      <div class="flex">
+      <div class="logo">
+        <img src="./cart_files/logo.png" alt="logo">
+         <a href="http://localhost/snoepwinkel/cart.php#" class="logo">Zoet &amp; Koek</a>
+        </div>
+
+         <nav class="navbar">
+            <a href="http://localhost/snoepwinkel/winkel.php">home</a>
+            <a href="http://localhost/snoepwinkel/cart.php#">about</a>
+            <a href="http://localhost/snoepwinkel/cart.php#">shop</a>
+            <a href="http://localhost/snoepwinkel/cart.php#">contact</a>
+            <a href="http://localhost/snoepwinkel/orders.php">orders</a>
+         </nav>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="http://localhost/snoepwinkel/search_page.php" class="fas fa-search"></a>
+            <div id="user-btn" class="fas fa-user"></div>
+                        <a href="http://localhost/snoepwinkel/cart.php"> <i class="fas fa-shopping-cart"></i> <span>(0)</span> </a>
+         </div>
+
+         <div class="user-box">
+            <p>username : <span>zara</span></p>
+            <p>email : <span>zara@gmail.com</span></p>
+            <a href="http://localhost/snoepwinkel/logout.php" class="delete-btn">logout</a>
+         </div>
+      </div>
+   </div>
+
+</header>
+
+<div class="heading">
+   <h3>shopping cart</h3>
+   <p> <a href="http://localhost/snoepwinkel/winkel.php">home</a> / cart </p>
+</div>
+
+<section class="shopping-cart">
+
+   <h1 class="title">products added</h1>
+
+   <div class="box-container">
+      <p class="empty">U winkelwagen is leeg</p>   </div>
+
+   <div style="margin-top: 2rem; text-align:center;">
+      <a href="http://localhost/snoepwinkel/cart.php?delete_all" class="delete-btn disabled" onclick="return confirm('&#39;delete all from cart?&#39;');">delete all</a>
+   </div>
+
+   <div class="cart-total">
+      <p>total : <span>€0/-</span></p>
+      <div class="flex">
+         <a href="http://localhost/snoepwinkel/winkel.php" class="option-btn">verder winkelen</a>
+         <a href="http://localhost/snoepwinkel/afrekenen.php" class="btn disabled">Bestelling afrekenen</a>
+      </div>
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="./cart_files/script.js"></script>
+
+
+</body></html>
